@@ -1,19 +1,19 @@
 <div class="form">
     <div class="title">
         <label for="title">Título de la noticia:</label>
-        <input type="text" id="title">
+        <input type="text" id="title" [(ngModel)]="title">
     </div>
     <div class="url">
         <label for="url">URL de la imagen:</label>
-        <input type="text" id="url">
+        <input type="text" id="url" [(ngModel)]="url">
     </div>
     <div class="main">
         <label for="mainText">Contenido de la noticia:</label>
-        <input type="text" id="mainText">
+        <input type="text" id="mainText" [(ngModel)]="mainText">
     </div>
     <div class="date">
         <label for="date">Fecha de la noticia:</label>
-        <input type="text" id="date">
+        <input type="text" id="date" [(ngModel)]="date">
     </div>
     <button>Crear noticia</button>
 </div>
