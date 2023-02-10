@@ -25,6 +25,7 @@ export class BlogComponent {
       date: "08/02/2023"
     }
   ]
+  wNew: string = "";
 
   constructor () {
 
@@ -38,11 +39,22 @@ export class BlogComponent {
       date: this.date
     }
     this.arrInfo.push(info);
+    this.paintNew();
     this.title = "";
     this.url = "";
     this.mainText = "";
     this.date = "";
-    console.log(this.arrInfo);
   }
 
+  paintNew(): void {
+    this.wNew = "";
+    this.arrInfo.forEach(info => {
+      this.wNew += `<article>
+                      <h1>${info.title}</h1>
+                      <img src=${info.url} alt="Imagen de la noticia">
+                      <p>${info.mainText}</p>
+                      <p>${info.date}</p>
+                    </article>`
+    });
+  }
 }

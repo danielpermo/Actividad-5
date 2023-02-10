@@ -17,12 +17,7 @@
     </div>
     <button (click)="saveNew()">Crear noticia</button>
 </div>
-<div class="news">
-    <article>
-        <h1>{{title}}</h1>
-        <img [src]="url" alt="Imagen de la noticia">
-        <p>{{mainText}}</p>
-        <p>{{date}}</p>
-    </article>
+<div class="news" [innerHTML]="wNew">
+    
 </div>
 
