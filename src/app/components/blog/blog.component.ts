@@ -25,7 +25,18 @@ export class BlogComponent {
       date: "08/02/2023"
     }
   ]
-  wNew: string = "";
+  wNew: string = `<article class="new-item">
+                    <h1 class="new-title">${this.arrInfo[0].title}</h1>
+                    <img src=${this.arrInfo[0].url} alt="Imagen de la noticia" class="new-img">
+                    <p class="new-content">${this.arrInfo[0].mainText}</p>
+                    <p class="new-date">${this.arrInfo[0].date}</p>
+                  </article>
+                  <article class="new-item">
+                    <h1 class="new-title">${this.arrInfo[1].title}</h1>
+                    <img src=${this.arrInfo[1].url} alt="Imagen de la noticia" class="new-img">
+                    <p class="new-content">${this.arrInfo[1].mainText}</p>
+                    <p class="new-date">${this.arrInfo[1].date}</p>
+                  </article>`;
 
   constructor () {
 
