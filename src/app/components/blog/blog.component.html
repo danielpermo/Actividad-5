@@ -1,23 +1,36 @@
-<div class="form">
-    <div class="title">
+<div class="w-form">
+    <div class="fill-title">
         <label for="title">Título de la noticia:</label>
         <input type="text" id="title" [(ngModel)]="title">
     </div>
-    <div class="url">
+    <div class="fill-url">
         <label for="url">URL de la imagen:</label>
         <input type="text" id="url" [(ngModel)]="url">
     </div>
-    <div class="main">
+    <div class="fill-content">
         <label for="mainText">Contenido de la noticia:</label>
         <input type="text" id="mainText" [(ngModel)]="mainText">
     </div>
-    <div class="date">
+    <div class="fill-date">
         <label for="date">Fecha de la noticia:</label>
         <input type="text" id="date" [(ngModel)]="date">
     </div>
-    <button (click)="saveNew()">Crear noticia</button>
+    <button class="create-new" (click)="saveNew()">Crear noticia</button>
 </div>
+<hr>
 <div class="news" [innerHTML]="wNew">
-    
+    <!-- Comprobar por qué no se me pintan estas dos noticias -->
+    <article class="new-item">
+        <h1 class="new-title">{{arrInfo[0].title}}</h1>
+        <img src={{arrInfo[0].url}} alt="Imagen de la noticia" class="new-img">
+        <p class="new-content">{{arrInfo[0].mainText}}</p>
+        <p class="new-date">{{arrInfo[0].date}}</p>
+      </article>
+      <article class="new-item">
+        <h1 class="new-title">{{arrInfo[1].title}}}</h1>
+        <img src={{arrInfo[1].url}} alt="Imagen de la noticia" class="new-img">
+        <p class="new-content">{{arrInfo[1].mainText}}</p>
+        <p class="new-date">{{arrInfo[1].date}}</p>
+      </article>
 </div>
 

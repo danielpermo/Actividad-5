@@ -32,6 +32,9 @@ export class BlogComponent {
   }
 
   saveNew(): void {
+    if (this.title === "" || this.url === "" || this.mainText === "" || this.date === "") {
+      alert("Faltan campos por rellenar. Comprueba que has rellenado todo");
+    } else {
     let info: Noticia = {
       title: this.title,
       url: this.url,
@@ -44,16 +47,17 @@ export class BlogComponent {
     this.url = "";
     this.mainText = "";
     this.date = "";
+    }
   }
 
   paintNew(): void {
     this.wNew = "";
     this.arrInfo.forEach(info => {
-      this.wNew += `<article>
-                      <h1>${info.title}</h1>
-                      <img src=${info.url} alt="Imagen de la noticia">
-                      <p>${info.mainText}</p>
-                      <p>${info.date}</p>
+      this.wNew += `<article class="new-item">
+                      <h1 class="new-title">${info.title}</h1>
+                      <img src=${info.url} alt="Imagen de la noticia" class="new-img">
+                      <p class="new-content">${info.mainText}</p>
+                      <p class="new-date">${info.date}</p>
                     </article>`
     });
   }

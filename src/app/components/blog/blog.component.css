@@ -1,0 +1,44 @@
+.fill-title{
+    display: flex;
+    flex-direction: column;
+}
+.fill-url{
+    display: flex;
+    flex-direction: column;
+}
+.fill-content{
+    display: flex;
+    flex-direction: column;
+}
+.fill-date{
+    display: flex;
+    flex-direction: column;
+}
+.w-form{
+    padding: 1rem;
+    background-color: #f3f3f39a;
+}
+.create-new{
+    margin: 1rem 0;
+    padding: 1rem;
+    font-weight: 700;
+    background-color: lightblue;
+    border-radius: 2rem;
+    border: 1px solid darkblue;
+}
+.create-new:hover{
+    background-color: blue;
+    color: white;
+}
+.create-new:active{
+    background-color: darkblue;
+    color: white;
+    border: 2px solid lightblue;
+}
+.news {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between; 
+}

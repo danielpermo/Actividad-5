@@ -1,0 +1,15 @@
+.w-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog-logo{
+    width: 15rem;
+}
+.news-logo{
+    width: 18rem;
+}
+.w-footer{
+    text-align: center;
+    font-weight: 700;
+}
