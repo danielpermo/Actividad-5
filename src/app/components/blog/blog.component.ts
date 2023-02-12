@@ -19,10 +19,10 @@ export class BlogComponent {
       date: new Date("2/4/2023").toLocaleDateString()
     },
     {
-      title: "Vuelven las pintadas",
-      url: "https://elsoldeantequera.com/wp-content/uploads/2023/02/LECTOR_pintadas_022023-696x464.jpg",
-      mainText: "Hay épocas en las que se perciben más como es en los últimos meses. Este viernes por la tarde, al pasar por la Plaza Castilla, vimos estos recuerdos de quienes no respeta el mobiliario urbano. No es la primera, ni será la última, pero estamos en una época donde se están percibiendo una nueva oleada de pintadas por paredes, bancos o aceras. ¿Habrá que utilizar las cámaras?",
-      date: new Date("2/8/2023").toLocaleDateString()
+      title: "Rescatan un perro a punto de caer de un segundo piso en Aluche",
+      url: "https://imagenes.20minutos.es/files/image_990_v3/uploads/imagenes/2022/07/09/rescate-perro-madrid.jpeg",
+      mainText: "Agentes de la Unidad Integral de Destino (UID) de Latina de la Policía Municipal de Madrid han rescatado un perro atrapado por su pata derecha de una terraza, a punto de caer de un segundo piso, ha informado un portavoz del Cuerpo Local. La intervención tuvo lugar el pasado miércoles sobre las 16:30 horas en la calle Blas Cabrera del barrio de Aluche. Tras el aviso de unos vecinos de que un can colgaba de una terraza y no se podía mover. Hasta el lugar llegaron los agentes, que rescataron el animal sano y salvo. Luego, localizaron a sus dueños, que se encontraban en Portugal. Ellos aseguraban que habían dejado a sus animales de compañía a cargo de una persona, que no respondía a las llamadas. Los policías hallaron en la vivienda otros tres perros, que fueron trasladados al Servicio Veterinario municipal de Urgencias (SEVEMUR), donde han sido asistidos. Además, los vecinos han señalado que otro animal ya había saltado un día antes por una ventana de la cocina ante la falta de comida y atención. Ahora, los agentes investigarán lo ocurrido y tomarán medidas contra los dueños y encargados de las mascotas porque según las ordenanzas municipales tienen que ser atendidos diariamente.",
+      date: new Date("7/9/2022").toLocaleDateString()
     }
   ]
   wNew: string = `<article class="new-item">
