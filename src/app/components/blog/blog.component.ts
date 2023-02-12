@@ -16,13 +16,13 @@ export class BlogComponent {
       title: "El Recre de Granada visita al líder este domingo en El Maulí",
       url: "https://elsoldeantequera.com/wp-content/uploads/2023/01/f-antequera-utrera-futbol-04-012023.jpg",
       mainText: "Otro partidazo en El Maulí. El Recreativo de Granada pisará el césped a las 17 horas este domingo, con la maleta de cinco partidos sin perder, sexto con 28 puntos, 20 menos que el líder, el Antequera. Vienen de ganar 2 a 0 al Cádiz Mirandilla. Pero el Antequera tiene iniciada una dinámica muy difícil de parar donde tienen el colchón de puntos ante una posible pájara que no pinta que aparezca, ni con los rumores del cambio de competiciones próximamente. Todo tras una jornada anterior donde pincharon los dos perseguidores en la tabla, el Recre en casa ante el Lepe y el Sanluqueño en Cartagena. Ya son 12 y 18 puntos con los seguidores en la tabla. El Maulí se prepara ante una segunda vuelta de ensueño.",
-      date: new Date("04/02/2023").toLocaleDateString()
+      date: new Date("2/4/2023").toLocaleDateString()
     },
     {
       title: "Vuelven las pintadas",
       url: "https://elsoldeantequera.com/wp-content/uploads/2023/02/LECTOR_pintadas_022023-696x464.jpg",
       mainText: "Hay épocas en las que se perciben más como es en los últimos meses. Este viernes por la tarde, al pasar por la Plaza Castilla, vimos estos recuerdos de quienes no respeta el mobiliario urbano. No es la primera, ni será la última, pero estamos en una época donde se están percibiendo una nueva oleada de pintadas por paredes, bancos o aceras. ¿Habrá que utilizar las cámaras?",
-      date: new Date("08/02/2023").toLocaleDateString()
+      date: new Date("2/8/2023").toLocaleDateString()
     }
   ]
   wNew: string = `<article class="new-item">
@@ -72,4 +72,4 @@ export class BlogComponent {
                     </article>`
     });
   }
-}
+ }
