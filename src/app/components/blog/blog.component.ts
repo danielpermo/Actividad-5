@@ -52,7 +52,7 @@ export class BlogComponent {
       mainText: this.mainText,
       date: new Date(this.date).toLocaleDateString()
     }
-    this.arrInfo.push(info);
+    this.arrInfo.unshift(info);
     this.paintNew();
     this.title = "";
     this.url = "";
