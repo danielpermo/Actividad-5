@@ -12,6 +12,7 @@ body{
     padding: 1rem;
     border-radius: 8px;
     background-color: white;
+    height: 896px;
 }
 .new-title{
     flex-basis: 15%;
@@ -19,10 +20,7 @@ body{
 }
 .new-img{
     flex-basis: 20%;
-    max-width: 100%;
-}
-img{
-    height: 30rem;
+    width: 100%;
 }
 .new-content{
     flex-basis: 60%;
