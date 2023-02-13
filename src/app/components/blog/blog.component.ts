@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Noticia } from 'src/app/interfaces/noticia.interface';
 
 @Component({
@@ -71,5 +71,9 @@ export class BlogComponent {
                       <p class="new-date">${info.date}</p>
                     </article>`
     });
+  }
+
+  ngOnInit(): void{
+    
   }
  }

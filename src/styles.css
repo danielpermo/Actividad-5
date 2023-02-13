@@ -21,6 +21,9 @@ body{
     flex-basis: 20%;
     max-width: 100%;
 }
+img{
+    height: 30rem;
+}
 .new-content{
     flex-basis: 60%;
 }

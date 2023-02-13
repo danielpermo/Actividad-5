@@ -10,11 +10,13 @@
         </div>
         <div class="fill-content">
             <label for="mainText">Contenido de la noticia:</label>
-            <input type="text" id="mainText" [(ngModel)]="mainText">
+            <textarea class="new-main-text" id="mainText" [(ngModel)]="mainText"></textarea>
         </div>
         <div class="fill-date">
-            <label for="date">Fecha de la noticia:</label>
-            <input type="date" id="date" [(ngModel)]="date">
+            <div class="w-date">
+                <label for="date">Fecha de la noticia:</label>
+                <input class="input-date" type="date" id="date" [(ngModel)]="date">
+            </div>
         </div>
         <button class="create-new" (click)="saveNew()">Crear noticia</button>
     </div>
