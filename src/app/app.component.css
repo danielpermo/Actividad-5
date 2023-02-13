@@ -1,15 +1,17 @@
 .w-header{
     border-bottom: 1rem solid white;
     background-color: #3b3b3b;
+    position: relative;
+}
+.w-background-image{
+    background-image: url("https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    opacity: .6;
 }
 .w-logo{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-.w-logo p{
-    margin: 0;
 }
 .logo{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

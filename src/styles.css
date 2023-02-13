@@ -10,12 +10,12 @@ body{
     flex-direction: column;
     flex-basis: calc(50% - 2rem);
     padding: 1rem;
-    border: 1px solid #cecece;
     border-radius: 8px;
     background-color: white;
 }
 .new-title{
     flex-basis: 15%;
+    color: #005000;
 }
 .new-img{
     flex-basis: 20%;
@@ -29,4 +29,6 @@ img{
 }
 .new-date{
     flex-basis: 5%;
+    border-top: 1px solid #1d7246;
+    padding-top: 1rem;
 }

@@ -13,7 +13,7 @@
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: space-between;
-    background-color: #cecece;  
+    background-color: #e9f1ec;  
 }
 input, .new-main-text{
     border-radius: 6px;
@@ -41,7 +41,7 @@ input, .new-main-text{
 }
 .w-form{
     padding: 1rem;
-    background-color: #3b3b3b;
+    background-color: #011407;
     color: white;
     flex-basis: 20%;
     border-right: 1px solid #cecece;
@@ -58,7 +58,7 @@ input, .new-main-text{
     border: 1px solid black;
 }
 .create-new:hover{
-    background-color: black;
+    background-color: #1d7246;
     color: white;
 }
 .create-new:active{
